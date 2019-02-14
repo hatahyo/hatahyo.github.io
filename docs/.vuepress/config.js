@@ -1,4 +1,5 @@
 module.exports = {
+
     title: "Hyoma's Story ",
     description: 'Just playing around',
 
@@ -6,6 +7,8 @@ module.exports = {
         nav: [
           { text: 'Home', link: '/' },
           { text: 'Git', link: '/git/' },
+          { text: 'puppetrer', link: '/puppeter/' },
+          { text: 'memo', link: '/memo/' },
         ]
       }
   }
