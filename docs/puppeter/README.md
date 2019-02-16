@@ -26,7 +26,7 @@
 
  await page.waitForSelector(
     '.tt-modal-wrapper > .tt-modal-container > .tt-modal-buttons > .primary',
-   * { hidden: true }
+    { hidden: true }
   )
   * hidden:true 
   * 要素が消えてくれるまで待ってくれる。
