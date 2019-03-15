@@ -5,7 +5,7 @@ module.exports = {
 
     themeConfig: {
         nav: [
-          { text: 'Home', link: '/' },
+          { text: 'Home', link: '/home/' },
           { text: 'Git', link: '/git/' },
           { text: 'puppetrer', link: '/puppeter/' },
           { text: 'memo', link: '/memo/' },
@@ -14,6 +14,8 @@ module.exports = {
       sidebar: [
         {
           title: 'Blog',
+          title: 'engineering',
+
           // children: [
           //   '/blog/'
           // ]
