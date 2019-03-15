@@ -9,6 +9,15 @@ module.exports = {
           { text: 'Git', link: '/git/' },
           { text: 'puppetrer', link: '/puppeter/' },
           { text: 'memo', link: '/memo/' },
-        ]
+        ],
+      
+      sidebar: [
+        {
+          title: 'Blog',
+          // children: [
+          //   '/blog/'
+          // ]
+        }
+      ]
       }
-  }
+    }

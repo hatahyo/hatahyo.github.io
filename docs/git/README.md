@@ -36,5 +36,9 @@
 
 ## git reset
 
+## git stash
+
+##　git commit -m"aaa" --no-verify
+lintをかけないでコミットする時に使う
 
 
