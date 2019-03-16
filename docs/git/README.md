@@ -31,7 +31,7 @@
 - ブランチの移動
 
 ##  git checkout -b <ブランチ名>
-- *** 新しいブランチを作成しさらに移動してくれる ***
+*** 新しいブランチを作成しさらに移動してくれる ***
 
 ### git merge
 - リモートブランチと同期したデータ、追跡ブランチをローカルリポジトリに取り込む
@@ -61,13 +61,13 @@
 - 指定されたlogに戻る
 
 ## git stash
-- *** 変更を一時的にストック ***
+*** 変更を一時的にストック ***
 
-###　git commit -m"aaa" --no-verify
+### git commit -m"aaa" --no-verify
 - lintをかけないでコミットする時に使う
 
 
-###git push --set-upstream origin 
+### git push --set-upstream origin 
 - upstream branchがないのでgit push --set-upstream origin (ブランチ)でセットしてってこと
 
 
