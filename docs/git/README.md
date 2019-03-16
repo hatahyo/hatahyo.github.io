@@ -42,3 +42,7 @@
 lintをかけないでコミットする時に使う
 
 
+##git push --set-upstream origin 
+upstream branchがないのでgit push --set-upstream origin (ブランチ)でセットしてくださいね。というものです。
+
+
