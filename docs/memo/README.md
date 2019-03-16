@@ -57,11 +57,11 @@ let { a, b } = { a : 10, b : 20 };
 実際の例でいうと, このような感じだ.
 
 ## 役にたったURLたち
-https://tracpath.com/bootcamp/learning_git_firststep.html
+[git 基礎](https://tracpath.com/bootcamp/learning_git_firststep.html)
 
-https://qiita.com/masashi127/items/2e103c3fba9d1b058961
+[git 超入門](https://qiita.com/masashi127/items/2e103c3fba9d1b058961)
 
-http://kray.jp/blog/git-pull-rebase/
+[gitのお話](http://kray.jp/blog/git-pull-rebase/)
 
 
 
