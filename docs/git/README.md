@@ -2,47 +2,72 @@
 
 # gitでよく使うコマンド
 
-## git status  
+### git status  
+- 現在の状態を見る
 
-## git add
+### git add
+- ステージングエリアにあげる
 
-## git diff
+### git diff
+- どこを編集したのか見る
 
-## git init
+### git init
+- 作業ディレクトリにGitを使う宣言をする
 
-## git rm
+### git rm [削除したいファイル]
+- ファイルごと削除
 
-## git log
+### git log
+- gitのlogを確認
 
-## git show
+### git show <コミットA>
+- コミットAの詳細をみる
 
-## git branch
+### git branch
+- ブランチの一覧　
+- ブランチの作成
 
-## git checkout
+### git checkout <ブランチ名>
+- ブランチの移動
 
-## git merge
+##  git checkout -b <ブランチ名>
+- *** 新しいブランチを作成しさらに移動してくれる ***
 
-## git push
+### git merge
+- リモートブランチと同期したデータ、追跡ブランチをローカルリポジトリに取り込む
 
-## git pull
+### git fetch
+- ローカルリポジトリをリモートリポジトリに同期する
 
-## git fetch
+### git pull
+- mergeとfetchをまとめて行う
 
-## git revert
+### git push
+- ローカルブランチのデータをリモートブランチに送る（最新のもの）
 
-## git revese
+### git revert  <コミットA>
+- コミットAの状態に戻す
 
-## git remote
+### git revese
+- 履歴を綺麗にする、まとめてコミットを取り込む
 
-## git reset
+### git remote add origin リポジトリA
+- リポジトリAを追加する
+
+### git reset --hard HEAD
+- 直前に戻る
+
+### git reset --hard　(ID)
+- 指定されたlogに戻る
 
 ## git stash
+- *** 変更を一時的にストック ***
 
-##　git commit -m"aaa" --no-verify
-lintをかけないでコミットする時に使う
+###　git commit -m"aaa" --no-verify
+- lintをかけないでコミットする時に使う
 
 
-##git push --set-upstream origin 
-upstream branchがないのでgit push --set-upstream origin (ブランチ)でセットしてくださいね。というものです。
+###git push --set-upstream origin 
+- upstream branchがないのでgit push --set-upstream origin (ブランチ)でセットしてってこと
 
 
