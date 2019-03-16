@@ -1,6 +1,6 @@
 # Hello memo
 
-### node.js とライブラリのpuppeteerを使ってテストコードを書いていく!
+#### node.js とライブラリのpuppeteerを使ってテストコードを書いていく!
 
 
 
@@ -25,8 +25,6 @@
 
  - json形式で記載されたインストールしたパッケージを管理するための目録のような情報です。
  -  この情報を最初に初期化して、インストールや環境設定をするたびにきちんと目録を更新させることで、正しくnpmを使用することができます。その為、実務上でもnpm initはプロジェクト開始時などに必ず使用します。
-
-# https://yarnpkg.com/en/docs/cli/run
 
 
 ## 分割代入とは
@@ -57,6 +55,14 @@ x に 10 が, y に 20 が入る.
 let { a, b } = { a : 10, b : 20 };
 
 実際の例でいうと, このような感じだ.
+
+## 役にたったURLたち
+https://tracpath.com/bootcamp/learning_git_firststep.html
+
+https://qiita.com/masashi127/items/2e103c3fba9d1b058961
+
+http://kray.jp/blog/git-pull-rebase/
+
 
 
 
