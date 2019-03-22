@@ -11,13 +11,11 @@ module.exports = {
          ],
       
       sidebar: [
-        
-          
-          '/git/',
+         './git/',
          
-        '/puppeter/' ,
+        './puppeter/' ,
         
-         '/memo/',
+         './memo/',
         
       ]
       }
