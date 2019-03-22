@@ -11,14 +11,14 @@ module.exports = {
          ],
       
       sidebar: [
-        {
-          title: 'Git', link: '/git/'},
-         { 
-          title: 'puppetrer', link: '/puppeter/' 
-        },
-        { 
-          title: 'memo', link: '/memo/'
-        },
+        
+          
+          '/git/',
+         
+        '/puppeter/' ,
+        
+         '/memo/',
+        
       ]
       }
     }
