@@ -4,19 +4,18 @@ module.exports = {
     description: 'Just playing around',
 
     themeConfig: {
-         nav: [
-           { text: 'home' },
-        //   { text: 'puppetrer', link: '/puppeter/' },
-        //   { text: 'memo', link: '/memo/' },
-         ],
+        nav: [
+          { text: 'Git', link: '/git/' },
+          { text: 'puppetrer', link: '/puppeter/' },
+          { text: 'memo', link: '/memo/' },
+        ],
       
       sidebar: [
-         './git/',
-         
-        './puppeter/' ,
-        
-         './memo/',
-        
+        {
+          title: 'Blog'},
+         { 
+          title: 'engineering'
+        },
       ]
       }
     }
