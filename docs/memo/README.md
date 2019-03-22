@@ -63,6 +63,10 @@ let { a, b } = { a : 10, b : 20 };
 
 [gitのお話](http://kray.jp/blog/git-pull-rebase/)
 
+[サルでもわかるgit](https://backlog.com/ja/git-tutorial/)
+
+
+
 
 
 

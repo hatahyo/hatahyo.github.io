@@ -10,13 +10,12 @@ module.exports = {
           { text: 'memo', link: '/memo/' },
         ],
       
-      sidebar: {
-        
-          '/': [
-           '',
-           'git'
-          ]
-      
+      sidebar: [
+        {
+          title: 'Blog'},
+         { 
+          title: 'engineering'
+        },
+      ]
       }
     }
-  }
