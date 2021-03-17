@@ -8,6 +8,7 @@ module.exports = {
           { text: 'Git', link: '/git/' },
           { text: 'puppetrer', link: '/puppeter/' },
           { text: 'memo', link: '/memo/' },
+          { text: 'php', link: '/php/' }
         ],
       
       sidebar: [
